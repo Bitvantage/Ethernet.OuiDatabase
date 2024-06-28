@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AssemblyName>$(MSBuildProjectName)</AssemblyName>
+		<RootNamespace>Bitvantage.Ethernet</RootNamespace>
+		<Title>Bitvantage.Ethernet.OuiDatabase</Title>
+		<PackageProjectUrl>https://github.com/Bitvantage/Ethernet.OuiDatabase</PackageProjectUrl>
+		<PackageIcon>icon.png</PackageIcon>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>network;networking;mac;mac address;oui</PackageTags>
+		<VersionPrefix>1.0.0</VersionPrefix>
+		<FileVersion>1.0.0</FileVersion>
+		<AssemblyVersion>1.0.0</AssemblyVersion>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseExpression>AGPL-3.0-only</PackageLicenseExpression>
+		<Description>Lookup manufacture infromation for MAC addresses</Description>
+		<RepositoryUrl>https://github.com/Bitvantage/Ethernet.OuiDatabase.git</RepositoryUrl>
+		<Copyright>Copyright © Michael Crino 2024</Copyright>
+
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\oui.txt.br" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="../README.md" Pack="true" PackagePath="" />
+		<None Include="../icon.png" Pack="true" PackagePath="" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Resources\oui.txt.br" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Bitvantage.Ethernet.MacAddress" Version="1.0.0" />
+	</ItemGroup>
+
+</Project>

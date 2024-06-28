@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bitvantage.Ethernet.OuiDatabase", "Bitvantage.Ethernet.OuiDatabase\Bitvantage.Ethernet.OuiDatabase.csproj", "{F3F73A8B-45DE-497C-B569-619CF1CB81DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{481707E6-BF62-4D45-B103-ACBD32A6C67A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{771D6512-CCEC-4155-98DF-57E14810B09E}"
+	ProjectSection(SolutionItems) = preProject
+		Bitvantage.Ethernet.OuiDatabase.sln.licenseheader = Bitvantage.Ethernet.OuiDatabase.sln.licenseheader
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		icon.png = icon.png
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+		TODO.md = TODO.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3F73A8B-45DE-497C-B569-619CF1CB81DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F73A8B-45DE-497C-B569-619CF1CB81DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F73A8B-45DE-497C-B569-619CF1CB81DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F73A8B-45DE-497C-B569-619CF1CB81DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{481707E6-BF62-4D45-B103-ACBD32A6C67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{481707E6-BF62-4D45-B103-ACBD32A6C67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{481707E6-BF62-4D45-B103-ACBD32A6C67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{481707E6-BF62-4D45-B103-ACBD32A6C67A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9EFA72F9-8E15-4AD4-BA1C-3A6420029B5E}
+	EndGlobalSection
+EndGlobal
