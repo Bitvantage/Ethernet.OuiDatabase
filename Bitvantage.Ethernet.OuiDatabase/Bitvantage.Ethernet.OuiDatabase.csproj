@@ -16,7 +16,7 @@
 		<AssemblyVersion>1.0.0</AssemblyVersion>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageLicenseExpression>AGPL-3.0-only</PackageLicenseExpression>
-		<Description>Lookup manufacture infromation for MAC addresses</Description>
+		<Description>Lookup manufacture information for MAC addresses</Description>
 		<RepositoryUrl>https://github.com/Bitvantage/Ethernet.OuiDatabase.git</RepositoryUrl>
 		<Copyright>Copyright © Michael Crino 2024</Copyright>
 

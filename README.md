@@ -1,5 +1,5 @@
 # Bitvantage.Ethernet.OuiDatabase
-Lookup manufacture infromation for MAC addresses
+Lookup manufacture information for MAC addresses
 
 ## Installing via NuGet Package Manager
 ```sh
